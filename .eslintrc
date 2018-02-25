@@ -1,0 +1,17 @@
+{
+    "extends": [
+        "eslint:recommended",
+        "plugin:requirejs/recommended"
+    ],
+    "rules": {
+        "no-console": 0,
+        "eol-last": "error"
+    },
+    "env": {
+        "browser": true,
+        "node": true
+    },
+    "plugins": [
+        "requirejs"
+    ]
+}
